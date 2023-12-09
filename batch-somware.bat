@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 set /a cnt=0
 set "fileExtension=*.ext1 *.ext2 *.ext3"
-for /r "C:\" %%i in (*%fileExtension%) do (
+for /r "%homedrive%\" %%i in (*%fileExtension%) do (
     set "filePath=%%i"
     set "filePath=!filePath:\=!"
     if /i not "!filePath:windows=!"=="!filePath!" (
