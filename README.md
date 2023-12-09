@@ -34,3 +34,4 @@ Works using utilities built into Windows 10, no need for third-party utilities.
 
 - Automatically creates `README.html ` on the desktop and opens it at the end
 - Does not display a message if no files have been encrypted
+- Shows how many and which files (extensions only) have been encrypted (you can change it on `lines 43-44`, `%cnt%` and `%fileExtension%` variables)
