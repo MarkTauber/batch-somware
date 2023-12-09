@@ -7,7 +7,7 @@ Works using utilities built into Windows 10, no need for third-party utilities.
 
 ## Features
 
-### Smart recursive search that avoids system folders
+### Smart recursive search 
 - Searches in homedrive
 - Avoid appdata folder
 - Avoid Windows folder
