@@ -8,10 +8,10 @@ Works using utilities built into Windows 10, no need for third-party utilities.
 ## Features
 
 ### Recursive search that avoids system folders
-
-- Appdata
-- Windows
-- Program files
+- Searches in homedrive
+- Avoid appdata folder
+- Avoid Windows folder
+- Avoid Program files folder
 
 ### earches for several extensions at once
 
