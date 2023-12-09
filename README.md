@@ -7,7 +7,7 @@ Works using utilities built into Windows 10, no need for third-party utilities.
 
 ## Features
 
-### Recursive search system that avoids system folders
+### Recursive search that avoids system folders
 
 - Appdata
 - Windows
