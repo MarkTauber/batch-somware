@@ -12,7 +12,7 @@ Works using utilities built into Windows 10, no need for third-party utilities.
 - Avoid appdata folder
 - Avoid Windows folder
 - Avoid Program files folder
-- Avoid emty files
+- Avoid empty files
 
 ### earches for several extensions at once
 
