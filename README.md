@@ -20,7 +20,7 @@ Works using utilities built into Windows 10, no need for third-party utilities.
 
 ### Checks the rights of the current user to modify the file
 
-- Uses `icacls` to see the rights
+- Uses `icacls` to display file access
 - Searches current user rights using `findstr`
 
 ### Built-in encryptyon
