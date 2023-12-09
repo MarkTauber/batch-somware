@@ -3,8 +3,11 @@
 ### For scientific purposes only!
 
 Easy ransomware, created using batch.
+
 Works using utilities built into Windows 10, no need for third-party utilities.
+
 And yes, there is no pasword. Because windows does not have utils like that. 
+
 In any case, this way is better than simple renamers or editing register
 
 ## Features
