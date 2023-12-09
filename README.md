@@ -7,11 +7,12 @@ Works using utilities built into Windows 10, no need for third-party utilities.
 
 ## Features
 
-### Recursive search that avoids system folders
+### Smart recursive search that avoids system folders
 - Searches in homedrive
 - Avoid appdata folder
 - Avoid Windows folder
 - Avoid Program files folder
+- Avoid emty files
 
 ### earches for several extensions at once
 
