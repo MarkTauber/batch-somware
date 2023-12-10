@@ -10,6 +10,8 @@ And yes, there is no pasword. Because windows has no utils like that.
 
 In any case, this way is better than simple renamers or editing register
 
+Ignore errors when finding files. If you see it, then it works
+
 ## Features
 
 ### Smart recursive search 
