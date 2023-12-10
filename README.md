@@ -20,7 +20,7 @@ In any case, this way is better than simple renamers or editing register
 - Avoid Program files folder
 - Avoid empty files
 
-### earches for several extensions at once
+### Searches for several extensions at once
 
 `.ext1, .ext2, .ext3` default, change it on `line 4`. No quantity limits!
 
@@ -32,12 +32,17 @@ In any case, this way is better than simple renamers or editing register
 
 ### Built-in encryptyon
 
-- Uses `certutil` to encrypt data. You can change it on `line 23`
-- Overwrites the file without creating a copy (you can change it, see comments on `lines 24-26` and `28-30`
+- Uses `certutil` to encrypt data. You can change it or modify on `lines 24-25`
+- Overwrites the file without creating a copy (you can change it, see comments on `lines 26-28` and `30-32`
 
 
 ### Built-in message
 
 - Automatically creates `README.html ` on the desktop and opens it at the end
 - Does not display a message if no files have been encrypted
-- Shows how many and which files (extensions only) have been encrypted (you can change it on `lines 43-44`, `%cnt%` and `%fileExtension%` variables)
+- Shows how many and which files (extensions only) have been encrypted (you can change it on `lines 41-42`, `%cnt%` and `%fileExtension%` variables)
+
+
+### Other 
+
+- Hides console window on start (`lines 5-11`)
