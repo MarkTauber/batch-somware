@@ -63,3 +63,5 @@ For now it uses simple shuffle system taht pulls out every first character follo
 3rd  | 9          = 1426385079
 ```
 Slowed because its f*cking hard to process every line manually
+
+I've tried to shuffle hex, but batch has limitations on the number of characters in line (nearly 1024 symbols), so it's easier to work with a large number of short strings without touching the concatenation topic
